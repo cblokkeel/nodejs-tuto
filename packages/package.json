@@ -1,12 +1,17 @@
 {
   "name": "packages",
   "version": "1.0.0",
-  "main": "https.js",
+  "main": "request.js",
   "scripts": {
+    "start": "node request.js",
+    "dev": "nodemon request.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
 }
